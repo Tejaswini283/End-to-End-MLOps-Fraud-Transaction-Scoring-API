@@ -4,3 +4,9 @@ joblib
 lightgbm
 scikit-learn
 pandas
+fastapi
+uvicorn
+joblib
+lightgbm
+scikit-learn
+pandas
