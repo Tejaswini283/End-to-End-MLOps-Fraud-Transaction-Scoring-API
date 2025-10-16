@@ -17,7 +17,8 @@ class Transaction(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Credit Card Fraud Detection API"}
+    # --- THIS IS THE LINE TO CHANGE ---
+    return {"message": "Fraud Detection API is live and running!"}
 
 @app.post("/predict")
 def predict_fraud(transaction: Transaction):
