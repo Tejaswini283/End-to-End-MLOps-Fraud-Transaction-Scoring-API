@@ -3,7 +3,7 @@
 
 A production-grade API for real-time fraud detection, built with a complete MLOps pipeline using Docker, GitHub Actions, and Render for cloud deployment.
 
-**Live API Endpoint:** `[YOUR RENDER URL HERE]`
+**Live API Endpoint:** `https://end-to-end-mlops-fraud-transaction.onrender.com`
 
 -----
 
@@ -62,7 +62,7 @@ To run this project on your local machine, follow these steps:
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/YourUsername/End-to-End-MLOps-Fraud-Transaction-Scoring-API.git
+git clone https://github.com/Tejaswinireddy283/End-to-End-MLOps-Fraud-Transaction-Scoring-API.git
 cd End-to-End-MLOps-Fraud-Transaction-Scoring-API
 ```
 
@@ -91,7 +91,7 @@ The API will be available at `http://127.0.0.1:8000`.
 
 ## 🚀 API Usage
 
-You can interact with the deployed API via the interactive documentation at `[YOUR RENDER URL HERE]/docs` or by sending a `POST` request to the `/predict` endpoint.
+You can interact with the deployed API via the interactive documentation at `https://end-to-end-mlops-fraud-transaction.onrender.com/docs` or by sending a `POST` request to the `/predict` endpoint.
 
 ### Endpoint: `/predict`
 
@@ -122,3 +122,4 @@ curl -X POST "YOUR_RENDER_URL_HERE/predict" \
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
+
